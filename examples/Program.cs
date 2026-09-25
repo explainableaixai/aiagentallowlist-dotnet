@@ -1,0 +1,1 @@
+using AlphaQuantum.AIAgentAllowlist;var client=new AIAgentAllowlistClient(Environment.GetEnvironmentVariable("AQ_API_KEY")!);Console.WriteLine(await client.CheckAsync("https://example.com/checkout"));
