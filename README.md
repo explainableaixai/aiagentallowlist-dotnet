@@ -113,7 +113,7 @@ Guidance on LLM security, such as the OWASP Top 10 for LLM Applications entry on
 
 ## Related controls
 
-Agents talk to more than web pages. A list of [model APIs and chatbots your agents should skip](https://www.aitoolsblocklist.com) keeps them from passing data to unapproved services. The log audit reveals [AI assistants already active on the network](https://www.shadowaitools.com). Policies based on subject matter can use [subject labels for pages agents read](https://www.websitecategorizationapi.com).
+Agents talk to more than web pages. Checking which services keep [data isolation in conversational AI tools](https://www.aitoolsblocklist.com/does-ai-train-on-your-data.php) stops agents from passing data to unapproved ones. [Shadow AI discovery](https://www.shadowaitools.com/how-it-works.php) in your logs reveals AI assistants already active on the network. Policies based on subject matter can run a [website category checker](https://www.websitecategorizationapi.com/website-url-category-check.php) on pages agents read.
 
 Also packaged as [a Go module for agent executors](https://pkg.go.dev/github.com/explainableaixai/aiagentallowlist-go) and [a TypeScript-friendly npm package](https://www.npmjs.com/package/aiagentallowlist).
 
